@@ -1,12 +1,8 @@
-<h1 align="center">Google Drive Index 🔥</h1> 
+<h1 align="center">Google Drive Index </h1> 
 
 <hr>
 
-> ## A Google Drive Index Running on CloudFlare ❤️ Workers.
-
-<p align="center"><img src="images/ss.png"></p>
-
-Supports features such as multi-disk, search, pagination and call-to-external player, plus DPlayer playback.
+> ## A Google Drive Index Running on CloudFlare Workers.
 
 
 ### How to Use
@@ -42,16 +38,6 @@ Supports features such as multi-disk, search, pagination and call-to-external pl
 * Copy the refresh token and paste in Line 7 of https://github.com/xmtscf/Google-Drive-Index/blob/master/index.js along with your own Client ID and Secret at Line 5 and Line 6 respectively.
 * Copy the Code and paste it into https://workers.cloudflare.com Site.
 
-
-### Extra Options
-``` js
-const uiConfig = {
-  .......
-  "avatar": "https://i.ibb.co/jW0TDZH/image.png",  // Changes the avatar image in the navbar
-  "disable_navicon": true // Disables useless nav menu in navbar
-  .......
-};
-```
 ### Thanks :heart:
 
 - [5MayRain](https://github.com/5MayRain) 
